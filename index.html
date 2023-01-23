@@ -54,6 +54,11 @@
                         <img src="img/icons/cart__btn.svg" alt="Кнопка" class="cart__btn-img">
                     </button>
                 </div>
+                <a href="#!" class="hamburger">
+                    <span class="hamburger__plank"></span>
+                    <span class="hamburger__plank hamburger__plank_size_long"></span>
+                    <span class="hamburger__plank"></span>
+                </a>
             </div>
         </header>
         <section class="hero">
@@ -114,8 +119,8 @@
                 </ul>
                 <div class="product__slider">
                     <div class="product__slider-ctrls">
-                        <button class="product__slider-ctrl product__slider-ctrl--prev">Назад</button>
-                        <button class="product__slider-ctrl product__slider-ctrl--next">Вперед</button>
+                        <button class="control product__slider-prev">Назад</button>
+                        <button class="control product__slider-next">Вперед</button>
                     </div>
                     <ul class="product__list">
                         <li class="product__item card">
@@ -227,31 +232,34 @@
         </section>
         <footer class="footer">
             <div class="container footer__container">
-                <div class="logo">
-                    <div class="logo__img-wrap">
-                        <img src="img/logo.png" alt="Логотип" class="logo__img">
+                <div class="footer__content">
+                    <div class="logo">
+                        <div class="logo__img-wrap">
+                            <img src="img/logo.png" alt="Логотип" class="logo__img">
+                        </div>
+                        <div class="logo__desc">
+                            <div class="logo__title">Florist master</div>
+                            <div class="logo__subtitle">Магазин флорариумов</div>
+                        </div>
                     </div>
-                    <div class="logo__desc">
-                        <div class="logo__title">Florist master</div>
-                        <div class="logo__subtitle">Магазин флорариумов</div>
-                    </div>
+                    <nav class="nav footer__nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#!" class="nav__link">Главная</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#!" class="nav__link">Каталог</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#!" class="nav__link">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <address class="contact">
+                        <a href="tel:+76543210000" class="contact__tel">+7 654 321 00 00</a>
+                    </address>
                 </div>
-                <nav class="nav header__nav">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#!" class="nav__link">Главная</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#!" class="nav__link">Каталог</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#!" class="nav__link">Контакты</a>
-                        </li>
-                    </ul>
-                </nav>
-                <address class="contact">
-                    <a href="tel:+76543210000" class="contact__tel">+7 654 321 00 00</a>
-                </address>
+                <a href="#!" class="control footer__link"></a>
             </div>
         </footer>
     </div>
