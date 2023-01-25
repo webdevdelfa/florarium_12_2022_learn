@@ -1,0 +1,151 @@
+.about {
+    padding: 54px 0px 88px;
+}
+
+.about__title {
+    margin-bottom: 53px;
+}
+
+.about__list {
+    display: flex;
+    column-gap: 78px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 42px 4px 66px;
+}
+
+.about__list::-webkit-scrollbar {
+    height: 13px;
+    background-color: #ECECEC;
+    border-radius: 50px;
+}
+
+.about__list::-webkit-scrollbar-thumb {
+    background: #C4C4C4;
+    border-radius: 50px;
+}
+
+.about__item {
+    flex-shrink: 0;
+}
+
+.feedback {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.16);
+    width: 322px;
+    min-height: 137px;
+    padding: 22px 62px 22px 21px;
+    position: relative;
+}
+
+.feedback__info {}
+
+.feedback__title {
+    margin-bottom: 13px;
+    font-size: 18px;
+}
+
+.feedback__name {
+    font-weight: 700;
+    line-height: 131.19%;
+}
+
+.feedback__prof {
+    font-weight: 400;
+    line-height: 131.19%;
+    color: #C4C4C4;
+}
+
+.feedback__text {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 131.19%;
+    padding-left: 12px;
+}
+
+.feedback__avatar {
+    position: absolute;
+    top: -42px;
+    right: -62px;
+    width: 135px;
+    height: 192px;
+}
+
+.feedback__pic {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding: 51px 0px 117px;
+    }
+
+    .about__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about__title {
+        margin-bottom: 53px;
+    }
+
+    .about__list {
+        overflow-x: hidden;
+        overflow-y: auto;
+        padding: 42px 101px 4px 0px;
+        flex-direction: column;
+        align-self: center;
+        max-height: 636px;
+        row-gap: 85px;
+    }
+}
+
+@media (max-width: 320px) {
+    .about {
+        padding: 56px 0px 63px;
+    }
+
+    .about__title {
+        margin-bottom: 51px;
+
+    }
+
+    .about__list {
+        overflow-y: hidden;
+        overflow-x: auto;
+        padding: 33px 0px 35px;
+        flex-direction: row;
+        align-self: auto;
+        max-height: none;
+        row-gap: 0px;
+    }
+
+    .feedback {
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.16);
+        width: 246px;
+        min-height: 105px;
+        padding: 16px 51px 12px 16px;
+    }
+
+    .feedback__title {
+        margin-bottom: 13px;
+        font-size: 10px;
+    }
+
+    .feedback__text {
+        font-size: 9px;
+        padding-left: 9px;
+    }
+
+    .feedback__avatar {
+        position: absolute;
+        top: -32px;
+        right: -51px;
+        width: 103px;
+        height: 147px;
+    }
+
+}
