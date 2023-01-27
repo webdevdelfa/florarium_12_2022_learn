@@ -40,12 +40,18 @@ ul>li {
 .wrapper {
     min-height: 100%;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
     max-width: 1242px;
     padding: 0px 36px;
     margin: 0px auto;
+}
+
+.main {
+    flex: 1;
 }
 
 @media (max-width:768px) {
